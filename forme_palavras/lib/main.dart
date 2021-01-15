@@ -11,6 +11,7 @@ class FormePalavrasApp extends StatelessWidget {
       title: 'Forme Palavras',
       theme: ThemeData(       
         primarySwatch: Colors.blue,
+        fontFamily: 'Games'
       ),
       home: HomePage(),
     );
