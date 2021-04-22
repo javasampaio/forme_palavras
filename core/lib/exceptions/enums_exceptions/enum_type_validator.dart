@@ -1,0 +1,4 @@
+enum EnumTypeValidator{
+  EMPTY,
+  EMAIL
+}

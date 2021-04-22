@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:forme_palavras/widget/card_info_widget.dart';
+import 'package:forme_palavras/login/login_page.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -11,12 +11,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
-        child: Container(
-          padding: EdgeInsets.all(16),          
-          child: CardInfoWidget(
-            
-          ),
-        ),
+        child: LoginPage(),
       ),
     );
   }
